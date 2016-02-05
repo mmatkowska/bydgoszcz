@@ -1,0 +1,20 @@
+<resources>
+	<string name="app_name">Bydgoszcz</string>
+	<string name="address">ul. Marszałka Focha 5</string>
+	<string name="map">Mapa</string>
+	<string name="place_name">Opera Nova</string>
+	<string name="video_title">Materiał video:</string>
+	<string name="audio_title">Materiał audio:</string>
+	<string name="share">Share</string>
+	<string name="menu">Menu</string>
+	<string name="distance">14,5km</string>
+	<string name="text">Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</string>
+	<string name="nearby_places">Obiekty w pobliżu</string>
+	<string name="nearable_name">Opera Nova</string>
+	<string name="nearable_address">ul. Marszałka Focha 5</string>
+	<string name="email">account@gmail.com</string>
+	<string name="send_email">WYŚLIJ E-MAIL</string>
+	<string name="phone_number">+48 511 234 122</string>
+	<string name="call">ZADZWOŃ</string>
+	<string name="www">www.account.pl</string>
+</resources>

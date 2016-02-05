@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="@+id/share"
+	      android:icon="@drawable/share"
+	      android:title="@string/share"
+	      app:showAsAction="always"/>
+	<item android:id="@+id/help"
+	      android:icon="@drawable/menu"
+	      android:title="@string/menu"
+	      app:showAsAction="always"/>
+</menu><!-- From: file:/Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/res/menu/toolbar_menu.xml -->

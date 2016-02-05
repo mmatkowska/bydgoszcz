@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi-c8fe184bbd7e6b25563f369abaed24b0a3afe030.jar" />
+    </item>
+    <item
+        jar="/Users/malgorzata/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.19.0/d473a8962e14a707a3716637e4898bb2dd9643f2/google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="/Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.19.0-5de9b4bfff646e32016cb9727cf07f4bd7e292ba.jar" />
+    </item>
+    <item
+        jar="/Users/malgorzata/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.19.1/b09ccfa9ac71b52b60ba4c1ab630150685d58c32/google-api-client-1.19.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b09ccfa9ac71b52b60ba4c1ab630150685d58c32">
+        <dex dex="/Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/pre-dexed/debug/google-api-client-1.19.1-3463d6173cc54dda624feba9bf23f1816c3b5d5d.jar" />
+    </item>
+    <item
+        jar="/Users/malgorzata/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.19.0/cdca49ad0977c040f603478aa2e16b2775c8fec6/google-http-client-1.19.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="/Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/pre-dexed/debug/google-http-client-1.19.0-789e4e504fe4460fd5671c875de155d17ea23290.jar" />
+    </item>
+    <item
+        jar="/Users/malgorzata/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9-59cacdcad7d177172e0cc1570be6307a9743db4d.jar" />
+    </item>
+    <item
+        jar="/Users/malgorzata/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.19.0/81dbf9795d387d5e80e55346582d5f2fb81a42eb/google-http-client-jackson2-1.19.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="/Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.19.0-5ee81c1c587b01da1031083cfcfab6be7d09bbbd.jar" />
+    </item>
+    <item
+        jar="/Users/malgorzata/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3-1862598943324e2570e10fc79134e4a85f6b72de.jar" />
+    </item>
+    <item
+        jar="/Users/malgorzata/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-youtube/v3-rev120-1.19.0/9befa937f06683ea4b038fc8667ec41f4480677f/google-api-services-youtube-v3-rev120-1.19.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9befa937f06683ea4b038fc8667ec41f4480677f">
+        <dex dex="/Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/pre-dexed/debug/google-api-services-youtube-v3-rev120-1.19.0-36e96355a258de4bb57834d22b6d4d86795af1d8.jar" />
+    </item>
+    <item
+        jar="/Users/malgorzata/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="/Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/pre-dexed/debug/guava-jdk5-13.0-3a951c1cf1aadf3f657e70d4cd084a35aac02d06.jar" />
+    </item>
+
+</items>

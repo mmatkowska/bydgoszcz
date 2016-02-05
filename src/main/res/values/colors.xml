@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>c>
+	<color name="colorPrimary">#F44336</color>
+	<color name="colorPrimaryDark">#B71C1C</color>
+	<color name="colorAccent">#F44336</color>
+	<color name="layoutBackground">#79fffefe</color>
+	<color name="green">#2E7D32</color>
+	<color name="border">#616161</color>
+	<color name="orange">#FFC400</color>
+	<color name="darkOrange">#FFAB00</color>
+</resources>

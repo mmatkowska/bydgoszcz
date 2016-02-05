@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- glowny layout -->
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:fab="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:background="@android:color/white"
+	tools:context=".activity.MainActivity">
+
+	<!-- pierwszy -->
+
+	<FrameLayout
+		android:id="@+id/frame_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="2"
+		xmlns:android="http://schemas.android.com/apk/res/android">
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			xmlns:app="http://schemas.android.com/apk/res-auto">
+
+		<android.support.v4.view.ViewPager
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/pager_1"
+			android:layout_width="match_parent"
+			android:layout_height="380dp"
+			android:layout_gravity="right|center_vertical"/>
+
+			<com.viewpagerindicator.CirclePageIndicator
+				android:id="@+id/indicator_top"
+				android:layout_gravity="top|center_horizontal"
+				android:gravity="center"
+				android:padding="45dp"
+				app:radius="7dp"
+				app:fillColor="@color/colorPrimary"
+				app:pageColor="@android:color/white"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"/>
+
+		</FrameLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="70dp"
+			android:orientation="horizontal"
+			android:background="@color/layoutBackground"
+			android:layout_gravity="bottom|center">
+
+			<TextView
+				android:text="@string/place_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="4"
+				android:textSize="25sp"
+				android:gravity="start"
+				android:layout_gravity="center_vertical|start"
+				android:textColor="@android:color/black"
+				android:layout_marginStart="8dp"/>
+
+			<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:layout_weight="1.5"
+				android:padding="6dp">
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/ikonka"
+					android:layout_gravity="end|bottom"
+					android:layout_marginEnd="16dp"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/distance"
+					android:layout_gravity="end|bottom"
+					android:textColor="@android:color/black"
+					android:layout_marginEnd="8dp"
+					android:textSize="12sp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</FrameLayout>
+
+	<!-- drugi -->
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@android:color/white">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_gravity="top"
+			android:gravity="top"
+			android:layout_margin="8dp">
+
+			<ImageView
+				android:id="@+id/address_icon"
+				android:src="@drawable/address"
+				android:layout_width="wrap_content"
+				android:clickable="true"
+				android:layout_marginStart="9dp"
+				android:layout_marginEnd="4dp"
+				android:layout_marginTop="4dp"
+				android:layout_marginBottom="4dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"/>
+
+			<ImageView
+				android:id="@+id/phone_icon"
+				android:src="@drawable/phone"
+				android:layout_width="wrap_content"
+				android:clickable="true"
+				android:layout_margin="4dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"/>
+
+			<ImageView
+				android:id="@+id/email_icon"
+				android:src="@drawable/mail"
+				android:clickable="true"
+				android:layout_margin="4dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"/>
+
+			<ImageView
+				android:id="@+id/www_icon"
+				android:src="@drawable/www"
+				android:clickable="true"
+				android:layout_marginEnd="9dp"
+				android:layout_marginStart="4dp"
+				android:layout_marginTop="4dp"
+				android:layout_marginBottom="4dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"/>
+
+		</LinearLayout>
+
+		<android.support.v4.view.ViewPager
+			android:id="@+id/pager_2"
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:background="@android:color/white"
+			android:layout_marginStart="8dp"
+			android:layout_marginBottom="8dp"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="@string/video_title"
+			android:textColor="@android:color/black"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginStart="8dp"/>
+
+		<FrameLayout
+			android:id="@+id/youtube_fragment_container"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_margin="8dp"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="@string/audio_title"
+			android:textColor="@android:color/black"
+			android:layout_margin="8dp"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:background="@color/colorPrimary"
+			android:layout_margin="8dp">
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:background="@color/colorPrimary"
+				android:layout_height="50dp">
+
+				<ImageView
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:layout_weight="1"
+					android:clickable="true"
+					android:src="@drawable/previous"/>
+
+				<ImageView
+					android:layout_width="20dp"
+					android:layout_height="20dp"
+					android:layout_weight="1"
+					android:clickable="true"
+					android:layout_gravity="center_vertical"
+					android:src="@drawable/play"/>
+
+				<ImageView
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:layout_weight="1"
+					android:clickable="true"
+					android:src="@drawable/next"/>
+
+			</LinearLayout>
+
+			<ImageView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/progress"
+				android:clickable="true"
+				android:layout_margin="8dp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<!-- trzeci -->
+
+	<RelativeLayout
+		android:id="@+id/relative"
+		android:layout_width="match_parent"
+		android:layout_height="230dp"
+		android:orientation="vertical"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:fab="http://schemas.android.com/tools">
+
+		<RelativeLayout
+			android:id="@+id/relativeParent"
+			android:background="@drawable/border"
+			android:layout_width="match_parent"
+			android:layout_height="190dp">
+
+			<LinearLayout
+				android:layout_gravity="top|start"
+				android:gravity="top"
+				android:layout_width="150dp"
+				android:layout_height="20dp"
+				android:orientation="horizontal"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentStart="true"
+				android:layout_marginLeft="8dp"
+				android:layout_marginTop="8dp"
+				android:layout_marginBottom="8dp"
+				android:id="@+id/linearLayout">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/nearby_places"
+					android:layout_gravity="top|start"
+					android:textColor="@android:color/black"
+					android:gravity="start"
+					android:layout_weight="4"/>
+
+			</LinearLayout>
+
+			<android.support.v4.view.ViewPager
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/pager_3"
+				android:layout_alignParentBottom="true"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="8dp"
+				android:layout_marginBottom="8dp"
+				android:layout_below="@+id/linearLayout"/>
+
+			<com.viewpagerindicator.CirclePageIndicator
+				android:id="@+id/indicator_bottom"
+				android:layout_gravity="top|center_vertical"
+				android:gravity="center"
+				app:fillColor="@color/colorPrimary"
+				app:pageColor="@color/border"
+				android:layout_height="wrap_content"
+				android:layout_width="60dp"
+				android:layout_alignTop="@+id/linearLayout"
+				android:layout_alignParentRight="true"
+				android:layout_alignParentEnd="true"/>
+
+		</RelativeLayout>
+
+		<com.getbase.floatingactionbutton.FloatingActionButton
+			android:id="@+id/add_button"
+			android:layout_width="match_parent"
+			android:layout_height="345dp"
+			fab:fab_icon="@drawable/add"
+			fab:fab_colorNormal="@color/orange"
+			android:clickable="true"
+			android:layout_gravity="bottom|end"
+			fab:fab_colorPressed="@color/darkOrange"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentEnd="true"
+			xmlns:fab="http://schemas.android.com/apk/res-auto"
+			xmlns:android="http://schemas.android.com/apk/res/android"/>
+
+	</RelativeLayout>
+
+</LinearLayout>

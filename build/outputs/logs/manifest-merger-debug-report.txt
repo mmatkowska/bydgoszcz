@@ -1,0 +1,66 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:2:1-23:12
+	xmlns:android
+		ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:3:11-69
+	package
+		ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:2:11-53
+		INJECTED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:5:3-65
+	android:name
+		ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:5:20-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:6:3-79
+	android:name
+		ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:6:20-76
+application
+ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:8:2-21:16
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.10.1/AndroidManifest.xml:12:5-20
+	android:supportsRtl
+		ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:12:3-29
+	android:label
+		ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:11:3-35
+	android:allowBackup
+		ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:9:3-29
+	android:icon
+		ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:10:3-37
+	android:theme
+		ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:13:3-34
+activity#com.example.malgorzata.bydgoszcz.activity.MainActivity
+ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:14:3-20:14
+	android:name
+		ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:14:13-50
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:15:4-19:20
+action#android.intent.action.MAIN
+ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:16:5-56
+	android:name
+		ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:16:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:18:5-64
+	android:name
+		ADDED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml:18:15-62
+uses-sdk
+INJECTED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [fr.avianey.com.viewpagerindicator:library:2.4.1] /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/AndroidManifest.xml:8:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.10.1/AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		INJECTED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/malgorzata/AndroidStudioProjects/Bydgoszcz2/app/src/main/AndroidManifest.xml
